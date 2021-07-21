@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bio-data form</title>  
+        <script>
+            function myalert(){
+                alert("your form is submitted");
+            }
+        </script>  
+        <style>
+            div{
+                margin-bottom:10px;
+            }
+
+            label{
+                width:150px;
+                text-align:right;
+            }
+            td:hover {background-color:#0a42ddbd;}
+     td{
+         border:2px solid black;
+     }
+        </style>
+
+    </head>
+<body>
+    <h1>My Bio Data</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+              <div>
+                    <lable for="name" >FIRST NAME :</lable>
+                 <input type="text"></input>
+                  
+                </div><br>
+
+          <div><lable for="lname">LAST NAME :</lable>
+            <input type="text"></input>
+        </div>
+            <br>
+            <div>
+                <lable for="gender">GENDER</lable>
+            
+            <input type="radio">MALE</input>
+            <input type="radio">FEMALE</input>
+            </div><BR>
+                
+
+            <lable for="date">DATE OF BIRTH</lable>
+            <input type="date" ></input><BR>
+
+            <BR>
+                <lable>E-Mail:</lable>
+                <input type="email" placeholder="abc@gmail.com"></input><br>
+                <br>
+            <lable for="phone">PHONE NUMBER</lable>
+            <input type="number " placeholder="+91"></input><br>
+            <br>
+            <lable for="height">Height</lable>
+            <input type="number" placeholder="Height in feet" ></input>
+
+
+</fieldset>
+<fieldset>
+    <legend>EDUCATION</legend>
+  <lable>School Name :
+    <input type="text" placeholder="School Name"></input>
+  </lable><br>
+<br>
+
+ <lable>Class :
+     <input type="text" placeholder="Enter Class"></input>
+ </lable><br>
+<br>
+ <lable >Stream
+     <input list="stream" placeholder="stream">
+    <datalist id="stream" >
+        <option>MEDICAL</option>
+        <option>NON-MEDICAL</option>
+        <option>HUMANITIES</option>
+        <option>COMMERCE</option>
+    </datalist>
+ </lable>
+<br>
+</fieldset>
+<br>
+
+<button onclick="myalert()">Submit</button>
+        </form>
+        <BR>
+
+        <div>
+            
+    <h1>
+        School Time Table
+    </h1>
+    
+        <table cellspacing="5" cellpadding="10" border ="5"  valign="middle"   >
+        
+                 <tr>
+                <td>Days/Periods</td>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="7">   <BR>B<BR>R<BR>E<BR>A<BR>K<BR></td>
+                   <td>3</td>
+  
+            
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                
+
+            </tr>
+           
+            <tr>
+                <td>Mon</td>
+                <td>Science</td>
+                <td>English</td>
+            
+                <td>Hindi</td>
+                <td>games</td>
+                <td>arts</td>
+                <td>moral science</td>
+
+            </tr>
+
+            <tr>
+                <td>Tue</td>
+                <td>Science</td>
+                <td>English</td>
+
+                <td>Hindi</td>
+                <td>games</td>
+                <td>arts</td>
+                <td>moral science</td>
+
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>games</td>
+                <td>arts</td>
+                <td>moral science</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>Science</td>
+                <td>English</td>
+
+                <td>Hindi</td>
+
+                <td>games</td>
+                <td>arts</td>
+                <td>moral science</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td colspan="2  ">Science</td>
+                
+               
+            <td>Hindi</td>
+                <td>games</td>
+                <td>arts</td>
+                <td>moral science</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>Science</td>
+                <td>English</td>
+               
+                <td>Hindi</td>
+                <td>games</td>
+                <td colspan="2"> arts</td>
+                
+            </tr>
+         
+                <tr>
+                    <td colspan="8" style="text-align:center;">
+                              This  Is Class vii
+                    </td>
+            </tr>
+        </table>
+
+        </div>
+
+    </body>
+</html>
